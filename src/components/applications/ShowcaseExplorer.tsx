@@ -23,12 +23,12 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
             left={56}
             width={initWidth}
             height={initHeight}
-            windowTitle="Vishal Vaibhav - Showcase 2022"
+            windowTitle="Vishal Vaibhav - Showcase 2025"
             windowBarIcon="windowExplorerIcon"
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
-            bottomLeftText="© Copyright 2022 Vishal Vaibhav"
+            bottomLeftText="© Copyright 2025 Vishal Vaibhav"
         >
             <Router>
                 <div className="site-page">
