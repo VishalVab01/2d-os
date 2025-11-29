@@ -12,13 +12,12 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Vishal Vaibhav</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm a web developer currently studying at GL Bajaj Institute of Management where
+                     I’m pursuing my BCA degree, expected to graduate in 2027.
                 </p>
                 <br />
                 <p>
@@ -27,8 +26,8 @@ const About: React.FC<AboutProps> = (props) => {
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:whysoovishal@gmail.com">
+                        whysoovishal@gmail.com
                     </a>
                 </p>
             </div>
@@ -37,14 +36,9 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    From a young age, I have always been fascinated by computers and technology. I was naturally curious about how things worked, and my love for gaming only strengthened that curiosity. Spending hours exploring games and gadgets slowly shaped my passion for understanding the tech behind them.
+
+My first real exposure to programming came in middle school, where I was introduced to Java. That early spark grew into a long-lasting interest in coding and problem-solving.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -58,32 +52,19 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                    I started programming more seriously in high school,
-                    initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
+                   I started programming more seriously in my first year of college, initially learning how to scrape and interact with websites. I went on to build a ton of passion-driven frontend projects, including chatbots, small games, landing pages, 
+                   meme search engines, and more. You can find many of these on my {' '}
+                    
+                   {' '}
                     <Link to="/projects/software">Software Projects</Link> page.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                    As I continued learning, I realized I was initially focused on basic frontend development. But everything changed when I discovered Next.js and advanced frontend technologies like GSAP, Framer Motion, Three.js, and WebGL. That opened up a whole new world for me.
+
+Curiosity eventually pulled me into the backend as well. I started exploring Node.js, and soon I knew I wanted to become a full-stack developer. Since then, I’ve been studying databases, AWS, DevOps practices, and everything that helps me build complete, scalable applications.
+
+Alongside web development, I also have a strong interest in problem-solving, so I actively practice competitive programming and work on improving my DSA skills.
                 </p>
                 <br />
                 <br />
@@ -99,27 +80,15 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I have a lot of hobbies that I
-                            enjoy doing in my free time. The more tangible
-                            hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
-                            read more about each of these on their respective
-                            pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, and (unsurprisingly)
-                            playing video games.
+                            Beyond software, I have a lot of hobbies that I enjoy in my free time. The more tangible hobbies I have are cinematography and playing cricket. You can read more about each of these on their respective pages under my projects tab. Some other hobbies I enjoy are cooking and (unsurprisingly) playing video games.
                         </p>
                         <br />
                         <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
+                           In college, I was an active member of the Techvisor Club and held multiple positions in the chapter. I met a lot of amazing people through the club and thoroughly enjoyed the community.
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
-                        <img src={meNow} style={styles.image} alt="" />
+                        <img src={meNow} style={styles.reducedImage} alt="" />
                         <p>
                             <sub>
                                 <b>Figure 2:</b> Me, April 2022
@@ -137,9 +106,9 @@ const About: React.FC<AboutProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://x.com/vishaldotexe"
                     >
-                        @henryheffernan
+                        @vishaldotexe
                     </a>{' '}
                     Good luck and have fun!
                 </p>
@@ -149,8 +118,8 @@ const About: React.FC<AboutProps> = (props) => {
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:whysoovishal@gmail.com">
+                        whysoovishal@gmail.com
                     </a>
                 </p>
             </div>
@@ -166,6 +135,12 @@ const styles: StyleSheetCSS = {
     image: {
         height: 'auto',
         width: '100%',
+    },
+    reducedImage: {
+        height: 'auto',
+        width: '107%',
+        maxHeight: '430px',
+        objectFit: 'cover',
     },
     topImage: {
         height: 'auto',
@@ -186,3 +161,4 @@ const styles: StyleSheetCSS = {
 };
 
 export default About;
+
