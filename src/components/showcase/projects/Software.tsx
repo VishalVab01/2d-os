@@ -208,6 +208,80 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <div className="text-block">
+                <h2>LMAO मृत्यु</h2>
+                <br />
+                <p>
+                    LMAO मृत्यु (pronounced "LMAO Mrityu") is a hilarious and addictive meme search engine that brings 
+                    the best of Reddit's meme culture to your fingertips. Built with pure HTML, CSS, and vanilla JavaScript, 
+                    this project demonstrates the power of simple yet effective web technologies combined with smart API 
+                    integration. The name playfully combines internet slang "LMAO" (Laughing My Ass Off) with the Sanskrit 
+                    word "मृत्यु" (Mrityu - meaning death), creating a humorous take on "dying of laughter."
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <VideoAsset src="https://customer-assets.emergentagent.com/job_webdev-update/artifacts/vqim7rte_memeengine.mp4" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 4:</b> LMAO मृत्यु meme search engine interface showcasing Reddit API integration.
+                        </sub>
+                    </p>
+                </div>
+                <p>
+                    The application leverages the Reddit API to fetch fresh, trending memes from popular subreddits in 
+                    real-time. Users can search for specific meme topics, browse through endless scrolling content, and 
+                    enjoy a smooth, responsive interface that works seamlessly across all devices. The clean, minimalist 
+                    design puts the focus squarely on the memes while providing intuitive navigation and search functionality. 
+                    This project showcases my ability to work with external APIs, handle asynchronous data fetching, and 
+                    create engaging user experiences using fundamental web technologies.
+                </p>
+                <br />
+                <h3>Tech Stack:</h3>
+                <ul>
+                    <li><p><b>HTML5</b> - Semantic markup structure</p></li>
+                    <li><p><b>CSS3</b> - Responsive styling and animations</p></li>
+                    <li><p><b>Vanilla JavaScript</b> - API integration and DOM manipulation</p></li>
+                    <li><p><b>Reddit API</b> - Real-time meme data fetching</p></li>
+                </ul>
+            </div>
+            <div className="text-block">
+                <h2>Kick Flip</h2>
+                <br />
+                <p>
+                    Kick Flip is an immersive 3D skateboard visualization experience that takes web-based 3D graphics to 
+                    the next level. Built with the same powerful tech stack as the SwitchLab keyboard website, this project 
+                    adds WebGL capabilities to create a stunning, interactive skateboard showcase. Users can explore every 
+                    angle of the skateboard, watching it perform realistic flip tricks and rotations in a beautifully 
+                    rendered 3D environment.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <VideoAsset src="https://customer-assets.emergentagent.com/job_webdev-update/artifacts/oh5tjnze_Sequence%2001.mp4" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 5:</b> Kick Flip 3D skateboard visualization with WebGL rendering.
+                        </sub>
+                    </p>
+                </div>
+                <p>
+                    The project demonstrates advanced 3D graphics programming using React Three Fiber and WebGL, creating 
+                    a photorealistic skateboard model complete with accurate physics and smooth animations. The skateboard 
+                    responds to user interactions with fluid movements and trick animations, providing an engaging experience 
+                    that showcases both technical skill and creative design. Built with Next.js for optimal performance and 
+                    styled with Tailwind CSS, Kick Flip represents the perfect blend of modern web development and 3D graphics 
+                    expertise.
+                </p>
+                <br />
+                <h3>Tech Stack:</h3>
+                <ul>
+                    <li><p><b>Next.js</b> - React framework for production</p></li>
+                    <li><p><b>React Three Fiber</b> - React renderer for Three.js</p></li>
+                    <li><p><b>WebGL</b> - Hardware-accelerated 3D graphics</p></li>
+                    <li><p><b>Tailwind CSS</b> - Utility-first styling</p></li>
+                    <li><p><b>GSAP</b> - Advanced animation library</p></li>
+                    <li><p><b>Node.js</b> - Backend runtime</p></li>
+                </ul>
+            </div>
             <ResumeDownload />
         </div>
     );

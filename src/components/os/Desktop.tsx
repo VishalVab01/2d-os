@@ -62,7 +62,7 @@ const APPLICATIONS: {
     },
     credits: {
         key: 'credits',
-        name: 'Credits',
+        name: 'Resume',
         shortcutIcon: 'credits',
         component: Credits,
     },
