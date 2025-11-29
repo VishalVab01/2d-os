@@ -61,7 +61,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://henryheffernan.com"
                         >
                             <p>
-                                <b>[3D Site]</b> - henryheffernan.com
+                                <b>[3D Site]</b> - vishalvab.com
                             </p>
                         </a>
                     </li>
@@ -72,7 +72,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://henryheffernan.vercel.app/"
                         >
                             <p>
-                                <b>[OS Site]</b> - henryheffernan.vercel.app
+                                <b>[OS Site]</b> - vishalvab.vercel.app
                             </p>
                         </a>
                     </li>
